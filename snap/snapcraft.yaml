@@ -16,6 +16,7 @@ parts:
     plugin: rust
     source: https://github.com/youaremagic/ip-fetch.git
     build-packages:
+      - pkg-config
       - libssl-dev
 
 apps:
