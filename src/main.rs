@@ -21,7 +21,7 @@ mod ip_fetcher;
 
 use ip_fetcher::{FetchState, IpFetcher};
 
-/// Get Location of an ip address
+/// Get Details of an ip address
 #[derive(Parser)]
 #[command(version)]
 struct Cli {
